@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.1">
+    <title>Document</title>
+
+    <style>
+
+.fieldset{
+
+   background-color: rgb(99, 49, 49);
+
+
+}
+    
+.photo1{
+    border-radius: 50px;
+    background-color: black;
+    display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+    height: 180px;
+    width: 210px;
+    margin-left: 0px;
+    overflow: hidden;
+}
+
+
+.intro{
+    font-size: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    color: rgb(99, 49, 49);
+    display: flex;
+    flex-wrap: wrap;
+    border: 3px solid black;
+    justify-content: center;
+    align-content: end;
+    box-shadow: 8px 8px 3px black;
+    
+    
+}
+
+
+
+.para2{
+    background-image: url(camila-damasio-4bUF4gWhEXc-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 5px solid black;
+    width: 96%;
+    margin: 30px;
+    height: 70vh; 
+    border-radius: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 10px 10px 5px;
+    
+}
+
+#parafont{
+    font-size: x-large;
+    overflow:hidden;
+     font-family:serif ;
+     display: flex;
+     flex-wrap: wrap;
+}
+
+ h1{
+    border: 3px solid black;
+    background-image: url(domino-164_6wVEHfI-unsplash.jpg);
+    position: relative;
+    padding: 10px;
+    margin-left: 60px;
+    height: 30%;
+    width: 90%;
+    color:black;
+    background-color: #f0e1b9ff;
+    box-shadow: 5px -5px 5px;
+ }
+
+
+
+.brandname{
+        background-image: url(domino-164_6wVEHfI-unsplash.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position:center;
+        border: 3px solid black;
+        width: 90%;
+        height: 50vh;
+        overflow: scroll;
+        padding: 35px;
+        flex-direction: row;
+        margin:40px;
+        display:flex;
+        flex-wrap: wrap;
+        box-shadow:15px 15px 5px black;
+        font-size: xx-large;
+        font-family: fantasy;
+        
+}
+
+
+
+.brand2{
+   
+   border: 3px solid black;
+   background-color:white;
+    color: #d4b996ff;
+    width: 260px;
+    height: 380px;
+    position: relative;
+    padding: 25px;
+    margin-top: 20px;
+    margin-left: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:space-between;
+    justify-content:center;
+    box-shadow: 10px 10px 5px black;
+
+   
+    
+   
+}
+
+.circal{
+    border: 3px solid black;
+    background-image: url(maxim-hopman-8cT5ja0P_N4-unsplash.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    width: 96%;
+    height: 40vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    margin-left:30px;
+    display: flex;
+    overflow: scroll;
+    flex-wrap: wrap;
+    box-shadow: 15px 15px 5px black;
+   
+}
+.circal2{
+    border: 4px solid black;
+    border-radius: 50px;
+    margin: 35px;
+    padding: 25px;
+    display: flex;
+    position: relative;
+   flex-wrap: wrap;
+   flex-direction: row;
+    height: 180px;
+    width: 180px;
+    margin-left: 40px;
+    box-shadow: 5px 10px 5px black;
+    
+
+}
+
+@media(min-width:640px){
+    .circal2{
+        flex-direction: row;
+    }
+}
+@media(max-width:640px){
+    .circal2{
+        flex-direction:column;
+    }
+}
+.para1{
+    border: 4px solid black;
+    background-image:url(clay-banks-BSL837tTPAw-unsplash.jpg) ;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    border-radius: 5px;
+    width: 96%;
+    height:30vh;
+    margin:30px;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 10px 15px 5px black;
+   
+
+}
+
+
+.sidebox{
+    border: 4px solid black;
+    background-color: #d4b996ff;
+    border-radius: 5px;
+    width: 96%;
+    margin: 30px;
+    height: 80vh; 
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: end;
+    justify-self: start;
+    box-shadow: 10px 15px 5px black;
+}
+
+.sideboxr{
+    border: 4px solid black;
+    background-image:url(whereslugo-ad047kyPBh8-unsplash.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    border-radius: 5px;
+    width: 45%;
+    height:90%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right:30px;
+    padding-right: 90px;
+    margin-top: 20px;
+   
+  
+}
+.sideboxl{
+    border: 4px solid black;
+    background-image:url(joseph-barrientos-4qSb_FWhHKs-unsplash.jpg) ;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 45%;
+    position: relative;
+    height: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    
+}
+
+.bigbox{
+    background-image:url(scott-bruxvoort-qyW7ISiDvG0-unsplash\ \(1\).jpg) ;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    border: 4px solid black;
+    width: 96%;
+    margin: 30px;
+    height: 70vh; 
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    overflow:scroll ;
+    box-shadow: 10px 15px 5px black;
+    
+}
+.bigbox1{
+    border: 4px solid black;
+    border-radius: 15px;
+    width: 20%;
+    margin: 60px;
+    padding: 35px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height:60vh; 
+   
+
+}
+</style>
+
+</head>
+<body>  
+
+<fieldset class="fieldset">
+
+<div class="brandname">
+  
+<h1>SCARPE</h1>
+
+
+
+<div class="brand2" >
+<a href="https://amzn.eu/d/18baA9A"target="_blank">
+<img src="first product1.jpg  " width="250px" height="250px">
+<p class="intro">Campus Men's-40% ₹899
+    M.R.P.: ₹1,499.00 </p>
+</a>
+</div>
+<br>
+
+<div class="brand2" >
+    <a href="https://amzn.eu/d/3dmPcis"target="_blank">
+        <img src="first product2.jpg" width="260px" height="260px">
+        <p class="intro">Bacca Bucci SNOWMAN
+            -43% ₹1,999
+            M.R.P.: ₹3,499.00 </p>
+        </a>
+    
+</div>
+ <br>
+
+<div class="brand2" >
+    <a href="https://amzn.eu/d/hxoAVL0"target="_blank">
+        <img src="first product3.jpg" width="260px" height="260px">
+        <p class="intro">Vellinto Royal Look Shoes for Men 
+            -34% ₹854
+M.R.P.: ₹1,299.00 </p>
+        </a>
+        
+</div>
+<br>
+
+<div class="brand2" >
+    <a href="https://amzn.eu/d/71rDcNN"target="_blank">
+        <img src="first prodect5.jpg" width="260px" height="260px">
+        <p class="intro">Centrino Mens Formal ShoeDerby
+            -65% ₹879
+M.R.P.: ₹2,499.00 </p>
+        </a>
+        
+            
+</div>
+<br>
+               
+        
+<div class="brand2" >
+    <a href="https://amzn.eu/d/4HvQuYW"target="_blank">
+        <img src="first product6.jpg" width="260px" height="260px">
+        <p class="intro">FASHIMO Casual Boots for Women
+              -34% ₹657
+             M.R.P.: ₹999.00 </p>
+        </a>
+                    
+</div>
+<br>
+
+<div class="brand2" >
+    <a href="https://amzn.eu/d/3J72yCN"target="_blank">
+        <img src="first product7.jpg" width="260px" height="260px">
+        <p class="intro">Red Tape Sports Shoes for Women's
+            -80% ₹1,319
+M.R.P.: ₹6,599.00 </p>
+        </a>
+                    
+</div>
+<br>
+
+<div class="brand2" >
+    <a href="https://amzn.eu/d/hKceQn4"target="_blank">
+        <img src="first product8.jpg" width="260px" height="305px">
+        <p class="intro">YOHO 
+        M.R.P.:₹1,799 </p>
+        </a>
+                    
+</div>
+<br>
+
+<div class="brand2" >
+    <a href="https://amzn.eu/d/erBmNjV"target="_blank">
+        <img src="first product9.jpg" width="260px" height="280px">
+        <p class="intro">Denill Women Ankle Strap High Heel
+        M.R.P ₹569</p>
+        </a>
+                    
+</div>
+<br>
+
+</div>
+
+<div class="circal">
+    
+    <div class="circal2">
+        <a href="https://www.amazon.in/s?k=men+sport+shoes&crid=3ASRDVWTL1F7A&sprefix=men+sport+shoe%2Caps%2C455&ref=nb_sb_noss_1"target="_black"class=photo1>
+    <img src="irene-kredenets-dwKiHoqqxk8-unsplash.jpg" alt="Nike" width="250px" height="150px" class="photo1">
+    </a>
+
+    </div>
+
+    <div class="circal2">
+    <a href="https://www.amazon.in/s?k=heels+for+women&crid=1936Q9ZVYZONH&sprefix=heels+for+women%2Caps%2C429&ref=nb_sb_noss_1"target="_black" class=photo1>
+    <img src="mohammad-metri-E-0ON3VGrBc-unsplash.jpg" alt="Nike" width="250px" height="150px" class="photo1">
+    </a>
+    </div>
+
+    <div class="circal2">
+    <a href="https://www.amazon.in/s?k=formalshoes+for+men&crid=1XYZAD5K9PFZG&sprefix=formalshoes+for+me%2Caps%2C444&ref=nb_sb_noss_2"target="_black"class=photo1>
+    <img src="clem-onojeghuo-OuxPfti70I0-unsplash.jpg" alt="Nike" width="250px" height="150px" class="photo1">
+    </a>
+    </div>
+
+    <div class="circal2">
+    <a href="https://www.amazon.in/s?k=women+shoes&crid=19MNBRZU8KQ08&sprefix=women+shoe%2Caps%2C340&ref=nb_sb_noss_1"target="_black"class=photo1>
+    <img src="apostolos-vamvouras-IcKwz2E4xp8-unsplash.jpg" alt="Nike" width="250px" height="150px" class="photo1">
+    </a>
+    </div>
+
+    <div class="circal2">
+    <a href="https://www.amazon.in/s?k=boot+formen&crid=19OK70PJVVMUJ&sprefix=boot+formen%2Caps%2C427&ref=nb_sb_noss_2"target="_black"class=photo1>
+    <img src="noah-smith-R4xOiCIeOUs-unsplash.jpg" alt="Nike" width="250px" height="150px" class="photo1">
+    </a>
+    </div>
+
+
+</div>
+
+<div class="para1">
+
+<p id="parafont">"Scarpe" is an Italian word that translates to "shoes" in English. Choosing this as a store name can evoke a sense of sophistication, elegance, and European flair. It immediately communicates to customers that your store specializes in footwear, creating a clear and memorable brand identity.
+
+    The use of a foreign language in the name adds an exotic touch, which can appeal to customers looking for unique and stylish products. It also sets your store apart from competitors with more generic names.</p>
+    
+    
+    
+    
+    
+</div>
+
+
+<div class="sidebox">
+
+<div class="sideboxl">
+  
+
+
+</div>
+
+<div class="sideboxr">
+
+
+
+</div>
+
+</div>
+
+<div class="bigbox"> 
+
+<div class="bigbox1">
+
+</div>
+<br>
+<div class="bigbox1">
+
+</div>
+<br>
+<div class="bigbox1">
+
+</div>
+
+<div class="bigbox1">
+
+</div>
+
+<div class="bigbox1">
+
+</div>
+
+<div class="bigbox1">
+
+</div>
+
+<div class="bigbox1">
+
+</div>
+
+<div class="bigbox1">
+
+</div>
+
+<div class="bigbox1">
+
+</div>
+
+
+
+</div>
+
+<div class="para2" >
+ 
+  
+</div>
+
+</fieldset>
+</body>
+</html>
